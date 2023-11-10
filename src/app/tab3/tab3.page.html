@@ -33,7 +33,7 @@
           <ion-button fill="clear" (click)="carritoService.eliminarProducto(item.producto.id)">
             <ion-icon slot="icon-only" name="trash"></ion-icon>
           </ion-button>
-          <app-contador-cantidad [cantidadInicial]="item.cantidad"></app-contador-cantidad>
+
           <app-contador-cantidad [cantidadInicial]="item.cantidad" (cantidadCambiada)="cambiarCantidad($event, item.producto.id)"></app-contador-cantidad>
         </ion-item>
   
