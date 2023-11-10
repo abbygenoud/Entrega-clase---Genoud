@@ -1,0 +1,18 @@
+#categorias-container{
+    margin-top: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+a{
+    font-weight: bold;
+    margin: 10px 10px; //para separar los elementos
+    padding: 60px 20px; //separado del borde, no usa height porque lo hace con el padding
+    text-align: center;
+    border-radius: 10px; //redondeado
+    color: white;
+    background-size: cover;
+    background-position: center;
+    //filter: brightness(0.5); bajar la luz de la imagen
+}
+}
